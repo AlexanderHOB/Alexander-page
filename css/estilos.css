@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+html,body{
+	height: 100%;
+	
+}
+.container-fluid{
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative
+}
+.redes-sociales{
+	position: absolute;
+	right: 40px;
+	z-index: 3;
+	padding:20px;
+	top:0;
+	font-size: 45px;
+
+}
+nav>ul{
+	list-style: none;
+}
+nav ul i{
+	color:white;
+	text-shadow: -4px 3px 0 #000;	
+}
+nav ul i:hover{
+	text-shadow: 0 0 15px rgba(255,255,255,.8), 0 0 10px rgba(255,255,255,.8);
+}
+#particles-js{
+	/*background: #444;*/
+	background: url(../images/portada1.jpg);
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	top:0;
+	right:0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+}
+.textos{	
+	color:#fff;
+	z-index: 3;
+	text-align: center;
+	display: inline;
+	position: relative;
+	color: #e0dfdc;
+	letter-spacing: .1em;
+	text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+.sistema{
+	color:#fff;
+	text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.nombre{
+	display: inline-block;	
+}
+.nav{
+	z-index: 3;
+	position: relative;
+	text-align: center;
+	margin-top: 8em;
+	width: 70%;
+}
+.nav ul {
+	width: 100%;
+
+}
+.nav ul a {
+	font-size: 1.3em;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+}
+.nav ul a:hover {
+	text-shadow: 0 0 15px rgba(255,255,255,.8), 0 0 10px rgba(255,255,255,.8);
+}
+.nav ul a:before {
+	content: "";
+	display: block;
+	width: 0;
+	left: 50%;
+	bottom: 0;
+	background: #fff;
+	position: absolute;
+	transition:all ease 0.8s;
+}
+.nav ul a:hover:before {
+	height: 1.5px;
+	width: 100%;
+	left: 0;
+}
+.more{
+	z-index: 3;
+	font-size: 2.5em;
+	position: absolute;
+	bottom: 1.5em;
+	color:#fff;
+	cursor: pointer;
+	animation: btn-more 1.3s infinite;
+}
+
+/*Inicio de NAV*/
+main{
+	position: relative;
+	background: -webkit-gradient(linear, left top, left bottom, from(#090909), to(#2e3030));
+    background: -webkit-linear-gradient(top, #090909, #2e3030);
+    background: -o-linear-gradient(top, #090909, #2e3030);
+    background: linear-gradient(180deg, #090909, #2e3030)
+    width:100%;
+    /*height: 100vh;*/
+}
+main .menu{
+	text-align: center;
+	background: rgba(0, 0, 0, 0.95);
+	margin:0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+main .menu .col a {
+	color:#fff;
+	padding:10px;
+	display: block;
+	transition: .3s;
+	border-bottom: 4px solid transparent;
+	position: relative;
+}
+main .menu .col a:hover{
+	text-decoration: none;
+}
+main .menu .col a:before {
+	content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background: #fff;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+main .menu .col a:hover:before {
+    width: 100%;
+    height: 2px;
+    left: 0
+}
+
+/*Fin de NAV*/
+/*Acerca de Mi*/
+.presentacion{
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	width: auto;
+	color:#fff;
+}
+.acerca-de-mi{
+ 	border-bottom: 1px solid #3de067;
+ 	margin-bottom: 2em
+}
+.acerca-de-mi .title{
+	font-size: 3em;
+}
+.self{
+	font-size: 1.5em;
+	text-align:justify;
+	padding: 0 3em;
+}
+/*Fin acerca de mi*/
+/*keyframes*/
+@keyframes btn-more {
+    10% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+    20% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.4)
+    }
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
