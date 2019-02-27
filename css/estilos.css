@@ -57,7 +57,7 @@ nav ul i:hover{
 }
 #particles-js{
 	/*background: #444;*/
-	background: url(../images/portada1.jpg);
+	background: url(../images/portada.png);
 	background-position: center;
 	background-attachment: contain;
 	background-size: cover;
