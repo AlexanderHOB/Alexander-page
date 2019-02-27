@@ -131,3 +131,40 @@ particlesJS('particles-js',
   }
 
 );
+
+// codigo
+    const $penion=document.getElementById("penion");
+    const $newCollege=document.getElementById("newCollege");
+    const $red=document.getElementById("red");
+
+    const $trabajo1=document.getElementById("trabajo-1");
+    const $trabajo2=document.getElementById("trabajo-2");
+    const $trabajo3=document.getElementById("trabajo-3");
+
+    $penion.addEventListener("click",showModal);
+    $newCollege.addEventListener("click",showModal);
+    $red.addEventListener("click",showModal);
+
+    function showModal(e){
+      if(e.target == $penion){
+        console.log("Hola p");
+        $trabajo1.classList.add("is-actived");
+        $trabajo2.classList.remove("is-actived");
+        $trabajo3.classList.remove("is-actived");
+
+      }
+      else if(e.target == $newCollege){
+        console.log("Hola nc");
+        $trabajo2.classList.add("is-actived");
+        $trabajo3.classList.remove("is-actived");
+        $trabajo1.classList.remove("is-actived");
+
+      }
+      else if(e.target == $red){
+        console.log("Hola r");
+        $trabajo3.classList.add("is-actived");
+        $trabajo2.classList.remove("is-actived");
+        $trabajo1.classList.remove("is-actived");
+
+      }
+    }

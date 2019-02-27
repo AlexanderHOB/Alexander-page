@@ -6,18 +6,22 @@
 	<title>Alexander OB - Portafolio</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/estilos.css">
+	<!-- font -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<!--Aos-->
+	<!-- <link rel="stylesheet" href="css/aos.css"> -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 	<header role="banner">
 		<div class="container-fluid">
 			<nav class="redes-sociales">
 				<ul>
-					<a href="" class="col"><li><i class="fab fa-facebook"></i></li></a>
-					<a href="" class="col"><li><i class="fab fa-twitter"></i></li></a>
-					<a href="" class="col"><li><i class="fab fa-youtube"></i></li></a>
-					<a href="" class="col"><li><i class="fab fa-github"></i></li></a>
-					<a href="" class="col"><li><i class="fab fa-instagram"></i></li></a>
+					<a href="#" class="col"><li><i class="fab fa-facebook"></i></li></a>
+					<a href="#" class="col"><li><i class="fab fa-twitter"></i></li></a>
+					<a href="#" class="col"><li><i class="fab fa-youtube"></i></li></a>
+					<a href="#" class="col"><li><i class="fab fa-github"></i></li></a>
+					<a href="#" class="col"><li><i class="fab fa-instagram"></i></li></a>
 				</ul>
 			</nav>
 			<div class="textos">
@@ -29,7 +33,7 @@
 				<ul class="nav-main">
 					<a href="#" class="col-md"> <li>Acerca de mi</li> </a>
 					<a href="#" class="col-md"> <li>Habilidades</li> </a>
-					<a href="#" class="col-md"> <li>Trabajos</li> </a>
+					<a href="#" class="col-md"> <li>Portafolio</li> </a>
 					<a href="#" class="col-md"> <li>Contacto</li> </a>
 				</ul>
 			</nav>
@@ -48,59 +52,364 @@
 			<div class="logo"><a href="#">Nediam</a></div>
 			<div class="pestanas">
 				<ul>
-					<li><a href="">Acerca de mi</a></li>
-					<li><a href="">Habilidades</a></li>
-					<li><a href="">Trabajos</a></li>
-					<li><a href="">Contácto</a></li>
+					<li><a href="#acerca-de-mi" class="prueba">Acerca de mi</a></li>
+					<li><a href="#habilidades">Habilidades</a></li>
+					<li><a href="#portafolio">Portafolio</a></li>
+					<li><a href="#contacto">Contácto</a></li>
 				</ul>
 			</div>
 		</div>
 		
-		<section class="container">
-			<section class="section acerca-de-mi">
-				<div class="titulo-menu">
+		<section class="container" >
+			<section class="section acerca-de-mi" id="acerca-de-mi" >
+				<div class="titulo-menu" data-aos="flip-up">
 					<h3 class="titulo">ACERCA DE MI</h3>
 				</div>
 				<div class="resumen-acerca">
-					<p class="self">Mi nombre es Alexander Nediam, soy estudiante de Ingeniería de Sistemas
-					en la Universidad Nacional del Centro del Perú, empece en este mundo tecnológico a los 17 años con la programación y a partir de ese momento recorro un camino lleno de aprendizaje de las distintas ramas como la inteligencia artificial, desarrollo web, desarrollo de aplicaciones y videojuegos y la programacion de hardware entre otros. </p>
+					<img src="images/Alexander.jpg" alt="alexander"  data-aos="flip-up">
+					<p class="self" data-aos="flip-up">
+					Mi nombre es Alexander Nediam, soy estudiante de Ingeniería de Sistemas
+					en la Universidad Nacional del Centro del Perú, empecé en este mundo tecnológico a los 17 años con la programación y a partir de ese momento recorro un camino lleno de aprendizaje de las distintas ramas tecnológicas como son  la inteligencia artificial, desarrollo web, desarrollo de aplicaciones y videojuegos, la programación de hardware ,etc. </p>
 				</div>
 			</section>
-			<section class="section habilidades">
-				<div class="titulo-menu">
+			<section class="section habilidades" id="habilidades">
+				<div class="titulo-menu" data-aos="zoom-out-down">
 					<h3 class="titulo">HABILIDADES</h3>
 				</div>
-				<div class="resumen-acerca">
-	<p class="self">Mi nombre es Alexander Nediam, soy estudiante de Ingeniería de Sistemas
-					en la Universidad Nacional del Centro del Perú, empece en este mundo tecnológico a los 17 años con la programación y a partir de ese momento recorro un camino lleno de aprendizaje de las distintas ramas como la inteligencia artificial, desarrollo web, desarrollo de aplicaciones y videojuegos y la programacion de hardware entre otros. </p>
-				</div>
+				<section class="container-habilidades" >
+					<figure class="habilidad" data-aos="fade-right">
+						<img src="images/html.png" alt="">
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+					<figure class="habilidad" data-aos="fade-down">
+						<img src="images/css.png" alt="" >
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+					<figure class="habilidad" data-aos="fade-left">
+						<img src="images/js.png" alt="">
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+					<figure class="habilidad" data-aos="fade-right">
+						<img src="images/bootstrap.png" alt="">
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+					<figure class="habilidad" data-aos="fade-up">
+						<img src="images/vue.png" alt="">
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+					<figure class="habilidad" data-aos="fade-left">
+						<img src="images/react.png" alt="">
+						<figcaption>
+							
+						</figcaption>
+					</figure>
+				</section>
 			</section>
-			<section class="section trabajos">
-				<div class="titulo-menu">
-					<h3 class="titulo">TRABAJOS</h3>
+			<section class="section trabajos" id="portafolio">
+				<div class="titulo-menu" data-aos="zoom-out-down">
+					<h3 class="titulo">PORTAFOLIO</h3>
 				</div>
-				<div class="resumen-acerca">
-	<p class="self">Mi nombre es Alexander Nediam, soy estudiante de Ingeniería de Sistemas
-					en la Universidad Nacional del Centro del Perú, empece en este mundo tecnológico a los 17 años con la programación y a partir de ese momento recorro un camino lleno de aprendizaje de las distintas ramas como la inteligencia artificial, desarrollo web, desarrollo de aplicaciones y videojuegos y la programacion de hardware entre otros. </p>
-				</div>
+				<div class="botones" >
+						<button class="btn primary" data-aos="zoom-out-right" id="penion">El - Peñon</button>
+						<button class="btn danger" data-aos="zoom-out" id="newCollege">New College</button>
+						<button class="btn warning" data-aos="zoom-in-left" id="red">Redes</button>
+					</div>
+
+				<section class="portafolio">
+					<div class="trabajo is-actived" id="trabajo-1">
+						<a href="#" class="post" data-aos="flip-right"
+     					data-aos-easing="ease-out-cubic"
+     					data-aos-duration="2000">
+						<figure class="post-image">
+							<img src="images/trabajos/compu.jpg" alt="">
+						</figure>
+						<span class="post-overlay">
+							<p>
+								<span class="post-likes">150</span>
+								<span class="post-comments">522</span>
+							</p>
+						</span>
+						</a>
+						<a href="#" class="post"  	data-aos="flip-left"
+					      data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+	     					data-aos-easing="ease-out-cubic"
+	     					data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+					</div>
+					<div class="trabajo" id="trabajo-2">
+						<a href="#" class="post" data-aos="flip-right"
+     					data-aos-easing="ease-out-cubic"
+     					data-aos-duration="2000">
+						<figure class="post-image">
+							<img src="images/trabajos/compu.jpg" alt="">
+						</figure>
+						<span class="post-overlay">
+							<p>
+								<span class="post-likes">150</span>
+								<span class="post-comments">522</span>
+							</p>
+						</span>
+						</a>
+						<a href="#" class="post"  	data-aos="flip-left"
+					      data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+					</div>
+					<div class="trabajo" id="trabajo-3">
+						<a href="#" class="post" data-aos="flip-right"
+     					data-aos-easing="ease-out-cubic"
+     					data-aos-duration="2000">
+						<figure class="post-image">
+							<img src="images/trabajos/compu.jpg" alt="">
+						</figure>
+						<span class="post-overlay">
+							<p>
+								<span class="post-likes">150</span>
+								<span class="post-comments">522</span>
+							</p>
+						</span>
+						</a>
+						<a href="#" class="post"  	data-aos="flip-left"
+					      data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu2.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+						<a href="#" class="post" data-aos="flip-left"
+					     data-aos-easing="ease-out-cubic"
+					     data-aos-duration="2000">
+							<figure class="post-image">
+								<img src="images/trabajos/compu3.jpg" alt="">
+							</figure>
+							<span class="post-overlay">
+								<p>
+									<span class="post-likes">150</span>
+									<span class="post-comments">522</span>
+								</p>
+							</span>
+						</a>
+					</div>
+				</section>
 			</section>
-			<section class="section contacto">
-				<div class="titulo-menu">
-					<h3 class="titulo">CONTÁCTOS</h3>
+			<section class="section contacto" id="contacto">
+				<p class="ancla" id="contacto"></p>
+				<div class="titulo-menu" data-aos="zoom-out-down">
+						<h3 class="titulo">CONTACTO</h3>
 				</div>
-				<div class="resumen-acerca">
-	<p class="self">Mi nombre es Alexander Nediam, soy estudiante de Ingeniería de Sistemas
-					en la Universidad Nacional del Centro del Perú, empece en este mundo tecnológico a los 17 años con la programación y a partir de ese momento recorro un camino lleno de aprendizaje de las distintas ramas como la inteligencia artificial, desarrollo web, desarrollo de aplicaciones y videojuegos y la programacion de hardware entre otros. </p>
-				</div>
+				<section class="contactanos">
+					<div class="ubicacion">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.1521979063473!2d-75.2395206856182!3d-12.033041144920492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ebdfa14060b33%3A0xa08d3ae6c78c7aaf!2sUniversidad+Nacional+del+Centro+del+Per%C3%BA!5e0!3m2!1ses!2spe!4v1549055486557" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="mapa"></iframe>
+					</div>
+					<div class="datos">
+						<p>Email: obispoa1@gmail.com</p>
+						<p>Facebook: Alexander Obispo</p>
+						<p>Twiter:@Alexander Nediam</p>
+						<p>Instragram: Alexander_Nediam</p>
+						<p>Canal de Youtube: Alexander Henry Obispo</p>
+						<p>GitHub: AlexanderHOB</p>
+					</div>
+					
+				</section>
 			</section>
 		</section>
 	</main>
+	
+	<footer>
+		<!-- <div class="redes-sociales footer-redes">
+			<ul>
+				<a href="#" class="col"><li><i class="fab fa-facebook"></i></li></a>
+				<a href="#" class="col"><li><i class="fab fa-twitter"></i></li></a>
+				<a href="#" class="col"><li><i class="fab fa-youtube"></i></li></a>
+				<a href="#" class="col"><li><i class="fab fa-github"></i></li></a>
+				<a href="#" class="col"><li><i class="fab fa-instagram"></i></li></a>
+			</ul>
+		</div> -->
+		<!-- <img src="images/footer.png" alt="footer" class="img-footer"> -->
+	</footer>
 
-	<section>
-			
-	</section>
-
+	<!-- <script src="js/aos.js"></script> -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="js/particles.js"></script>
 	<script src="js/app.js"></script>
+	<script>
+  		AOS.init();
+	</script>
 </body>
 </html>
