@@ -541,6 +541,9 @@ body::-webkit-scrollbar-thumb{
 body{
 	font-size: 7px;
 }
+#particles-js{
+	background: url(../images/portada-mobile.png);
+}
 /*Nav*/
 .nav{
 	font-size: 2em;
